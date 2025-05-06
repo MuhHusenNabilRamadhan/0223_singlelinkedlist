@@ -49,6 +49,8 @@ public :
                 cout << "\nDuplikasi noMhs tidak Diijinkan\n";
                 return;
             }
+            previous = current;
+            current = current->next;
         }
     }
 };
