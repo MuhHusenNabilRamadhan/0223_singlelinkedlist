@@ -43,5 +43,8 @@ public :
         Node *current = START;
         
         while ((current != NULL) && (nim >= current -> noMhs))
+        {
+            if (nim == current->noMhs)
+        }
     }
 };
