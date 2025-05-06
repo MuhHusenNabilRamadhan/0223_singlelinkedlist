@@ -75,4 +75,9 @@ public :
 
         return (*current != NULL);
     }
+
+    bool delNode(int nim)
+    {
+        
+    }
 };
