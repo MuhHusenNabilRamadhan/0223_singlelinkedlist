@@ -101,7 +101,10 @@ public :
         {
             cout << "\nData didalam list adalah :\n";
             Node *currentNode = START;
+            while (currentNode != NULL)
+            {
             
+            }
         }
     }
 };
