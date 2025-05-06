@@ -146,7 +146,9 @@ int main()
                          << "List Kosong" << endl;
                     break;
                 }
-               
+               cout << endl
+                    << "\nMasukkan no mahasiswa yang akan dihapus : ";
+                cin >> nim;
 
             }
         }
