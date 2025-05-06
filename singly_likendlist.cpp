@@ -7,3 +7,5 @@ struct Node
     int noMhs;
     Node *next;
 };
+//mengatur value dari start = NULL
+Node *start = NULL;
