@@ -176,6 +176,8 @@ int main()
                      << "Masukkan no mahasiswa yang dicari : ";
                 cin >> nim;
                 if (mhs.Search(nim, &previous, &current) == false)
+                    cout << endl
+                         << "Data tidak ditemukan" << endl;
             }
         }
         
