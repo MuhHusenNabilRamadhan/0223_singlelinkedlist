@@ -137,6 +137,18 @@ int main()
                 mhs.addNode();
             }
             break;
+
+            case '2':
+            {
+                if (mhs.listEmpty())
+                {
+                    cout << endl
+                         << "List Kosong" << endl;
+                    break;
+                }
+               
+
+            }
         }
         
     }
