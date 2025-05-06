@@ -8,3 +8,8 @@ class Node
         int noMhs;
         Node *next;
 };
+
+class LinkedList
+{
+    Node *START;
+};
