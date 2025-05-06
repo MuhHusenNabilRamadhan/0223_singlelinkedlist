@@ -90,4 +90,9 @@ public :
         delete current;
         return true;
     }
+
+    void traverse()
+    {
+        
+    }
 };
